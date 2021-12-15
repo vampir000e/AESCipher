@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1589591730 source:d:\aescipher\main.cpp
+	"resource.h"
+	"aes.h"
+	"head.h"
+
+1589591730 d:\aescipher\resource.h
+	<windows.h>
+
+1589212579 d:\aescipher\aes.h
+
+1589591782 d:\aescipher\head.h
+	"stdlib.h"
+	<iostream>
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<TCHAR.H>
+	<string>
+	<strings.h>
+	<commdlg.h>
+	<string>
+	<vector>
+	<sstream>
+
+1589591730 source:d:\aescipher\resource.rc
+	"resource.h"
+
+1589566116 source:d:\aescipher\aes.cpp
+	"aes.h"
+	"string.h"
+
+1591848679 source:e:\毕业设计的东西\重要文件\程序\aescipher\main.cpp
+	"resource.h"
+	"aes.h"
+	"head.h"
+
+1589591730 e:\毕业设计的东西\重要文件\程序\aescipher\resource.h
+	<windows.h>
+
+1590077684 e:\毕业设计的东西\重要文件\程序\aescipher\aes.h
+
+1591848655 e:\毕业设计的东西\重要文件\程序\aescipher\head.h
+	"stdlib.h"
+	<iostream>
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<TCHAR.H>
+	<string>
+	<strings.h>
+	<commdlg.h>
+	<string>
+	<vector>
+	<sstream>
+
+1589591730 source:e:\毕业设计的东西\重要文件\程序\aescipher\resource.rc
+	"resource.h"
+
+1591065086 source:e:\毕业设计的东西\重要文件\程序\aescipher\aes.cpp
+	"aes.h"
+	"string.h"
+
+1591065086 source:d:\实验室相关\求职\aes加解密系统\aescipher\aes.cpp
+	"aes.h"
+	"string.h"
+
+1590077684 d:\实验室相关\求职\aes加解密系统\aescipher\aes.h
+
+1591848679 source:d:\实验室相关\求职\aes加解密系统\aescipher\main.cpp
+	"resource.h"
+	"aes.h"
+	"head.h"
+
+1589591730 d:\实验室相关\求职\aes加解密系统\aescipher\resource.h
+	<windows.h>
+
+1591848655 d:\实验室相关\求职\aes加解密系统\aescipher\head.h
+	"stdlib.h"
+	<iostream>
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<TCHAR.H>
+	<string>
+	<strings.h>
+	<commdlg.h>
+	<string>
+	<vector>
+	<sstream>
+
+1589591730 source:d:\实验室相关\求职\aes加解密系统\aescipher\resource.rc
+	"resource.h"
+

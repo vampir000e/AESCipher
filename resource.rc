@@ -1,0 +1,45 @@
+#include "resource.h"
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Menu
+//
+IDC_MAIN MENU
+BEGIN
+    POPUP "选项(&F)"
+    BEGIN
+        MENUITEM "退出(&X)",                      IDM_EXIT
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于(&A) ...",                  IDM_ABOUT
+    END
+
+END
+IDI_HELLOWIN       ICON         "HelloWin.ico"
+IDI_SMALL          ICON         "small.ico"
+
+
+
+
+IDD_ABOUTBOX DIALOGEX 32, 32, 180, 100
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,66,80,50,14
+    ICON            "HelloWin",IDC_STATIC,7,7,20,20
+    CTEXT           "AES",IDC_STATIC,40,12,100,8
+    CTEXT           "AES Cipher for windows   1.0 ",IDC_STATIC,40,12,100,8
+    CTEXT           "Copyright (C) 2020",IDC_STATIC,7,40,166,8
+END
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+POPPAD ACCELERATORS DISCARDABLE
+BEGIN
+    "^O",           ID_FILEOPEN,          ASCII,  NOINVERT
+END
